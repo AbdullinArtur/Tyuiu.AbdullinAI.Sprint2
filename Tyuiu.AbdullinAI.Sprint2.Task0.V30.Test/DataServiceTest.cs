@@ -15,7 +15,7 @@ namespace Tyuiu.AbdullinAI.Sprint2.Task0.V30.Test
             int y = 1735;
             bool[] res = new bool[6];
             res = ds.GetCompareOperations(x, y);
-            bool[] wait =  new bool[6] {true, false, true, false, true, false};
+            bool[] wait = new bool[6] { true, false, true, false, true, false };
             CollectionAssert.AreEqual(res, wait);
 
 
