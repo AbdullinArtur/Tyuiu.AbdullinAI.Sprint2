@@ -48,26 +48,23 @@ namespace Tyuiu.AbdullinAI.Sprint2.Task0.V30
             {
                 Console.WriteLine(res[i]);
             }
+            int r = 0, t = 0;
 
-            Console.ReadKey();
+            r = Convert.ToInt32(Console.ReadLine());
 
+            t = Convert.ToInt32(Console.ReadLine());
 
+            int z = t - r;
 
+            if ((z > 0) && (t < 0)) z = 2 * z;
 
+            z += 1;
 
-
-
-
-
-
-
-
-
+            Console.WriteLine(z);
 
 
 
-           
-
+            Console.ReadKey();     
         }
     }
 }
